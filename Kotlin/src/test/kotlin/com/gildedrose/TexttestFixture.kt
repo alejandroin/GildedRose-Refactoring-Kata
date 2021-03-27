@@ -1,5 +1,7 @@
 package com.gildedrose
 
+import com.gildedrose.items.Item
+
 fun main(args: Array<String>) {
 
     println("OMGHAI!")
