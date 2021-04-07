@@ -6,5 +6,15 @@ import com.gildedrose.valueobjects.ItemSellIn
 
 class AgedBrie(name: ItemName, sellIn: ItemSellIn, quality: ItemQuality) : Item(name, sellIn, quality) {
 
+    override fun update() {
+
+        decreaseSellIn()
+
+        increaseQuality()
+
+        // domain checks I guess
+
+    }
+
 
 }

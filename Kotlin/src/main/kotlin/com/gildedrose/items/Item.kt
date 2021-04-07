@@ -6,6 +6,7 @@ import com.gildedrose.valueobjects.ItemSellIn
 
 abstract class Item(var name: ItemName, var sellIn: ItemSellIn, var quality: ItemQuality) {
 
+    abstract fun update();
 
     fun increaseQuality() {
         quality.increase()
